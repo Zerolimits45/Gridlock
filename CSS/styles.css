@@ -1,0 +1,968 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+	padding-top: 3.5rem;
+}
+
+.navbar-brand {
+	font-size: 250%;
+}
+
+.searchbox {
+	width: 100%;
+}
+
+.font-color {
+	color: white;
+}
+
+.navbar-color {
+	background-color: #1B1F3B;
+}
+
+.round-box {
+	border-radius: 30;
+	border: 5px solid #373737;
+}
+
+.card-color {
+	background-color: #fcb417;
+}
+
+.card-text {
+	color: white;
+	font-size: 125%;
+}
+
+.video:hover {
+	transform: scale(1.1);
+}
+
+.header-background {
+	background-color: #1B1F3B;
+}
+
+.background {
+	background-color: #1B1F3B;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.nav-link {
+	font-size: 125%;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+.btn {
+	color: white;
+	font-size: bold;
+}
+
+.btn-outline-success {
+	border-color: white;
+}
+
+/* FRONT PAGE VIDEO AND IMAGES */
+.video-image {
+	transition: transform .2s;
+	width: 100%;
+	height: 100%;
+}
+
+.video-image:hover {
+	transform: scale(1.1);
+}
+
+.video {
+	transition: transform .2s;
+	width: 100%;
+	height: 100%;
+}
+
+.fun-fact {
+	color: white;
+	font-size: 250%;
+	text-align: center;
+}
+
+.fact-image {
+	transition: transform .2s;
+	width: 100%;
+	height: 100%;
+}
+
+.fact-title {
+	font-size: 200%;
+	text-align: center;
+}
+
+.fact-text {
+	text-align: center;
+}
+
+
+/* DRIVER PAGE */
+/* team banners */
+.team-logo {
+	width: 30%;
+	height: 30%;
+}
+
+.team-banner.mercedes {
+	background-color: aquamarine;
+	padding-bottom: 20px;
+}
+
+.team-banner.redbull {
+	background-color: #01295F;
+	padding-bottom: 20px;
+}
+
+.team-banner.ferrari {
+	background-color: #FD151B;
+	padding-bottom: 20px;
+}
+
+.team-banner.alpine {
+	background-color: #007BFF;
+	padding-bottom: 20px;
+}
+
+.team-banner.mclaren {
+	background-color: #F79F79;
+	padding-bottom: 20px;
+}
+
+.team-banner.alfa {
+	background-color: #EEEEEE;
+	padding-bottom: 20px;
+}
+
+.team-banner.haas {
+	background-color: #EEEEEE;
+	padding-bottom: 20px;
+}
+
+.team-banner.alpha {
+	background-color: #E7ECEF;
+	padding-bottom: 20px;
+}
+
+.team-banner.aston {
+	background-color: #14342B;
+	padding-bottom: 20px;
+}
+
+.team-banner.william {
+	background-color: #0353A4;
+	padding-bottom: 20px;
+}
+
+.team-button {
+	background-color: #1f1f1f;
+	color: white;
+	width: 200px;
+	border-radius: 20px;
+}
+
+.team-button:hover {
+	background-color: white;
+	color: #1f1f1f;
+}
+
+/* Driver images */
+.driver-title {
+	font-weight: bold;
+	color: #373737;
+}
+
+.driver-name {
+	color: #373737;
+}
+
+.driver-team {
+	color: #373737;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.team-image {
+	width: 70%;
+	height: 70%;
+}
+
+.driver-image {
+	width: 96px;
+	height: 96px;
+}
+
+.driver-card {
+	transition: .5s ease-in-out;
+	background: #fcb417;
+	text-decoration: none;
+}
+
+.driver-card.hamilton:hover {
+	background: url(../Images/DriverBanner/hamilton-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.russell:hover {
+	background: url(../Images/DriverBanner/george-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.max:hover {
+	background: url(../Images/DriverBanner/verstappen-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.perez:hover {
+	background: url(../Images/DriverBanner/perez-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.charles:hover {
+	background: url(../Images/DriverBanner/lec-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.sainz:hover {
+	background: url(../Images/DriverBanner/sainz-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.alonso:hover {
+	background: url(../Images/DriverBanner/alonso-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.ocon:hover {
+	background: url(../Images/DriverBanner/ocon-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.norris:hover {
+	background: url(../Images/DriverBanner/lando-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.ric:hover {
+	background: url(../Images/DriverBanner/ric-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.bottas:hover {
+	background: url(../Images/DriverBanner/bottas-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.zhou:hover {
+	background: url(../Images/DriverBanner/zhou-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.magnussen:hover {
+	background: url(../Images/DriverBanner/mag-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.mick:hover {
+	background: url(../Images/DriverBanner/mick-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.gasly:hover {
+	background: url(../Images/DriverBanner/gasly-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.yuki:hover {
+	background: url(../Images/DriverBanner/yuki-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.stroll:hover {
+	background: url(../Images/DriverBanner/stroll-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.vettel:hover {
+	background: url(../Images/DriverBanner/vettel-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.albon:hover {
+	background: url(../Images/DriverBanner/albon-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card.latifi:hover {
+	background: url(../Images/DriverBanner/latifi-banner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.driver-card>div {
+	opacity: 1;
+	transition-duration: .5s;
+}
+
+.driver-card>div>* {
+	text-decoration: none;
+}
+
+.driver-card:hover>div {
+	opacity: 0;
+}
+
+/* STANDINGS PAGE */
+.championship-standing {
+	color: white;
+	font-size: 250%;
+	text-align: center;
+}
+
+.grid {
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+	width: 250px;
+	height: 250px;
+}
+
+.grid2 {
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+	width: 250px;
+	height: 250px;
+	margin-left: 100px;
+	margin-top: 150px;
+}
+
+.team-grid {
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+	width: 450px;
+	height: 250px;
+}
+
+.team-grid2 {
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+	width: 450px;
+	height: 250px;
+	margin-left: 100px;
+	margin-top: 150px;
+}
+
+/* BIO PAGE */
+.team-details {
+	background-color: #E7ECEF;
+}
+
+.team-details-title {
+	font-weight: bolder;
+	font-size: 120%;
+	padding-left: 140px;
+	padding-right: 40px;
+}
+
+.team-details-text {
+	font-size: 120%;
+	padding-right: 40px;
+}
+
+.team-driver-background {
+	background-color: #E7ECEF;
+}
+
+.team-text {
+	color: white;
+	font-size: 250%;
+	text-align: center;
+}
+
+.team-driver-image {
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+}
+
+.driver-number {
+	font-weight: bolder;
+	color: #373737;
+	padding-right: 120px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 6s;
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+
+
+/* RACES PAGE */
+.country-name {
+	color: #373737;
+	font-weight: bolder;
+}
+
+.race-name {
+	color: #373737;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.flag-image {
+	width: 125px;
+	height: 83px;
+	border-radius: 10px;
+}
+
+.checkered-flag {
+	align-items: center;
+}
+
+.race-card {
+	transition: .5s ease-in-out;
+	background: #fcb417;
+	text-decoration: none;
+}
+
+.race-card>div {
+	opacity: 1;
+	transition-duration: .5s;
+}
+
+.race-card>div>* {
+	text-decoration: none;
+}
+
+.race-card:hover>div {
+	opacity: 0;
+}
+
+.race-card.bahrain:hover {
+	background: url(../Images/Raceflag/racebanner/bahrain-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.saudi:hover {
+	background: url(../Images/Raceflag/racebanner/saudi-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.aus:hover {
+	background: url(../Images/Raceflag/racebanner/aus-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.italy:hover {
+	background: url(../Images/Raceflag/racebanner/italy-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.usa:hover {
+	background: url(../Images/Raceflag/racebanner/usa-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.spain:hover {
+	background: url(../Images/Raceflag/racebanner/spain-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.monaco:hover {
+	background: url(../Images/Raceflag/racebanner/monaco.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.baku:hover {
+	background: url(../Images/Raceflag/racebanner/baku-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.canada:hover {
+	background: url(../Images/Raceflag/racebanner/canada-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.silverstone:hover {
+	background: url(../Images/Raceflag/racebanner/silverstone-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.austria:hover {
+	background: url(../Images/Raceflag/racebanner/austria-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-card.france:hover {
+	background: url(../Images/Raceflag/racebanner/france-banner.png);
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.race-result {
+	text-align: center;
+	font-weight: bolder;
+	color: #373737;
+	text-decoration: dotted;
+}
+
+.p1 {
+	background: url(../Images/Raceflag/podiums/podium\ background.png);
+	border-radius: 15px;
+	width: 180px;
+	height: 180px;
+}
+
+.p2 {
+	background: url(../Images/Raceflag/podiums/podium\ background.png);
+	border-radius: 15px;
+	width: 160px;
+	height: 160px;
+	margin-top: 20px;
+}
+
+.p3 {
+	background: url(../Images/Raceflag/podiums/podium\ background.png);
+	border-radius: 15px;
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+}
+
+.podium-position {
+	padding-left: 70px;
+	padding-right: 70px;
+	color: #373737;
+}
+
+
+/* SHOP */
+.shop-logo {
+	width: 100%;
+	height: 100%;
+}
+
+.shop-title {
+	color: white;
+	font-size: 250%;
+	text-align: center;
+}
+
+.hr-rounded {
+	border-top: 5px solid #E7ECEF;
+	border-radius: 5px;
+}
+
+.shop-box {
+	border-radius: 30;
+	border: 5px solid #373737;
+}
+
+.shop-box:hover {
+	border: 10px solid #373737;
+}
+
+.cart-btn {
+	background-color: #2f3640;
+	border: 0px;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.cart-btn:hover {
+	cursor: pointer;
+}
+
+
+/* Voting */
+.driver-vote {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.team-vote {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.vote-text {
+	color: white;
+	font-size: 250%;
+	text-align: center;
+	border: #fcb417 3px solid;
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.vote-button {
+	background-color: #2f3640;
+	border: 0px;
+	color: white;
+	font-size: 150%;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.vote-button:hover {
+	background-color: #EEEEEE;
+	color: #2f3640
+}
+
+.vote-number {
+	font-weight: bolder;
+	color: #373737;
+	padding-right: 20px;
+}
+
+.vote-name {
+	color: #373737;
+}
+
+.vote-title {
+	font-weight: bold;
+	color: #373737;
+}
+
+
+.select-box .options-container {
+	background: #2f3640;
+	color: #f5f6fa;
+	max-height: 0;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.4s;
+	border-radius: 8px;
+	overflow: hidden;
+
+	order: 1;
+}
+
+.selected {
+	background: #2f3640;
+	border-radius: 8px;
+	margin-bottom: 8px;
+	color: #f5f6fa;
+	position: relative;
+
+	order: 0;
+}
+
+/* Lucky Draw */
+.luckydraw {
+	background-color: #2f3640;
+	border: 0px;
+	color: white;
+	font-size: 150%;
+	text-align: center;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.champion-border {
+	border: #92140C 3px solid;
+	padding: 10px;
+}
+
+.epic-border {
+	border: #852A7F 3px solid;
+	padding: 10px;
+}
+
+.rare-border {
+	border: #427AA1 3px solid;
+	padding: 10px;
+}
+
+.uncommon-border {
+	border: #317B22 3px solid;
+	padding: 10px;
+}
+
+.common-border {
+	border: #5B616A 3px solid;
+	padding: 10px;
+}
+
+.luckydraw:hover {
+	background-color: #D33F49;
+}
+
+.team-driver-background.champion {
+	background-color: #92140C;
+}
+
+.team-driver-background.epic {
+	background-color: #852A7F;
+}
+
+.team-driver-background.rare {
+	background-color: #427AA1;
+}
+
+.team-driver-background.uncommon {
+	background-color: #317B22;
+}
+
+.team-driver-background.common {
+	background-color: #5B616A;
+}
+
+.lucky-name {
+	color: #E7ECEF;
+}
+
+.lucky-number {
+	font-weight: bolder;
+	color: #E7ECEF;
+	padding-right: 20px;
+}
+
+.lucky.title {
+	font-weight: bold;
+	color: #E7ECEF;
+}
+
+.lucky-rating {
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+}
+
+.lucky-image {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+.card-lucky-rating {
+	width: 100%;
+	height: 30%;
+	border-radius: 10px;
+}
+
+/* flipcard */
+.card-container {
+	width: 350px;
+	height: 500px;
+	perspective: 800px;
+}
+
+.card-container:hover>.luckycard {
+	cursor: pointer;
+	transform: rotateY(180deg);
+}
+
+.luckycard {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transition: transform 1500ms;
+	transform-style: preserve-3d;
+}
+
+#front,
+#back {
+	height: 70%;
+	width: 100%;
+	border-radius: 5px;
+	position: absolute;
+	backface-visibility: hidden;
+}
+
+#front {
+	background-color: #E7ECEF;
+}
+
+#back {
+	background-color: #3a3a3a;
+	transform: rotateY(180deg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* contact page */
+
+
+/* animation */
+.card-animation {
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+.course-animation {
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	from {
+		margin-top: 100%;
+	}
+
+	to {
+		margin-bottom: 0%;
+	}
+}
+
+.center-container {
+	justify-content: center;
+}
+
+.center-content {
+	justify-content: center;
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.scene_element {
+	animation-duration: 2s;
+	transition-timing-function: ease-in;
+}
+
+.scene_element--fadeinright {
+	animation-name: fadeInRight;
+}
